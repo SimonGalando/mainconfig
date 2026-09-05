@@ -2103,8 +2103,8 @@ PASSIVE_ITEM_FLAGS["military_police_only"] = {
 
 PASSIVE_ITEM_FLAGS["medic_and_doctor_only"] = {
     FunctionName = "none",
-	RoleWhitelist = true,
-	RoleType = {"Medic","Doctor"},
+	CertWhitelist = true,
+	Cert = {"Medic","Doctor"},
     Description = "You must be either a medic or a doctor to use this item.",
     Color = Color(127, 0, 95)
 }
