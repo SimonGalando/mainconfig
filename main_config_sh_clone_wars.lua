@@ -1628,6 +1628,7 @@ PASSIVE_ITEM_FLAGS["Ammo Regen"] = {
 PASSIVE_ITEM_FLAGS["powershield"] = {
     FunctionName = "powershield",
     Description = "Grants a Powershield to the User (10% Damage Reduction).",
+	workshop = true,
     Color = Color(0, 161, 255)
 }
 
@@ -1842,12 +1843,14 @@ PASSIVE_ITEM_FLAGS["Fury"] = {
 PASSIVE_ITEM_FLAGS["Convert Armor To Health"] = {
     FunctionName = "ConvertArmorToHealth",
     Description  = "Converts your Armour into Health.",
+	workshop = true,
     Color        = Color(0, 200, 100)
 }
 
 PASSIVE_ITEM_FLAGS["Convert Health To Armor"] = {
     FunctionName = "ConvertHealthToArmor",
     Description  = "Converts your Health into Armour.",
+	workshop = true,
     Color        = Color(100, 150, 255)
 }
 
@@ -1858,18 +1861,21 @@ PASSIVE_ITEM_FLAGS["Convert Health To Armor"] = {
 PASSIVE_ITEM_FLAGS["ConvertArmorToDamage"] = {
     FunctionName = "ConvertArmorToDamage",
     Description  = "Converts your Armour into Damage. (-100 Armour +50 Damage)",
+	workshop = true,
     Color        = Color(100, 100, 200)
 }
 
 PASSIVE_ITEM_FLAGS["Convert Health To Damage"] = {
     FunctionName = "ConvertHealthToDamage",
     Description  = "Converts your Health into Damage. (-100 Health +50 Damage)",
+	workshop = true,
     Color        = Color(180, 100, 200)
 }
 
 PASSIVE_ITEM_FLAGS["Convert Stoicism to Health"] = {
     FunctionName = "ConvertStoicismToHealth",
     Description  = "Converts 75 Stoicism into +25 Health",
+	workshop = true,
     Color        = Color(120, 180, 255)
 }
 
@@ -1878,6 +1884,7 @@ PASSIVE_ITEM_FLAGS["Convert Stoicism to Health"] = {
 PASSIVE_ITEM_FLAGS["Convert Stoicism to Damage"] = {
     FunctionName = "ConvertStoicismToDamage",
     Description  = "Converts 100 Stoicism into +50 Damage",
+	workshop = true,
     Color        = Color(200, 100, 255)
 }
 
@@ -1886,6 +1893,7 @@ PASSIVE_ITEM_FLAGS["Convert Stoicism to Damage"] = {
 PASSIVE_ITEM_FLAGS["Convert Stoicism to Resolve"] = {
     FunctionName = "ConvertStoicismToResolve",
     Description  = "Converts 100 Stoicism into +50 Resolve",
+	workshop = true,
     Color        = Color(100, 200, 150)
 }
 
@@ -1900,6 +1908,7 @@ PASSIVE_ITEM_FLAGS["Convert Stoicism to Fury"] = {
 PASSIVE_ITEM_FLAGS["Convert Resolve to Shield"] = {
     FunctionName = "ConvertResolveToShield",
     Description  = "Converts 75 Resolve into +25 Armour.",
+	workshop = true,
     Color        = Color(50, 200, 255)
 }
 
@@ -1908,6 +1917,7 @@ PASSIVE_ITEM_FLAGS["Convert Resolve to Shield"] = {
 PASSIVE_ITEM_FLAGS["Convert Resolve to Damage"] = {
     FunctionName = "ConvertResolveToDamage",
     Description  = "Converts 100 Resolve into +50 Damage",
+	workshop = true,
     Color        = Color(255, 200, 50)
 }
 
@@ -1916,6 +1926,7 @@ PASSIVE_ITEM_FLAGS["Convert Resolve to Damage"] = {
 PASSIVE_ITEM_FLAGS["Convert Resolve to Stoicism"] = {
     FunctionName = "ConvertResolveToStoicism",
     Description  = "Converts 100 Resolve into +50 Stoicism",
+	workshop = true,
     Color        = Color(150, 220, 255)
 }
 
@@ -1924,6 +1935,7 @@ PASSIVE_ITEM_FLAGS["Convert Resolve to Stoicism"] = {
 PASSIVE_ITEM_FLAGS["Convert Resolve to Fury"] = {
     FunctionName = "ConvertResolveToFury",
     Description  = "Converts 100 Resolve into +50 Fury",
+	workshop = true,
     Color        = Color(255, 120, 120)
 }
 
@@ -1932,6 +1944,7 @@ PASSIVE_ITEM_FLAGS["Convert Resolve to Fury"] = {
 PASSIVE_ITEM_FLAGS["Convert Fury to Health"] = {
     FunctionName = "ConvertFuryToHealth",
     Description  = "Converts 75 Fury into +25 Health",
+	workshop = true,
     Color        = Color(255, 80, 80)
 }
 
@@ -1948,6 +1961,7 @@ PASSIVE_ITEM_FLAGS["Convert Fury to Shield"] = {
 PASSIVE_ITEM_FLAGS["Convert Fury to Stoicism"] = {
     FunctionName = "ConvertFuryToStoicism",
     Description  = "Converts 100 Fury into +50 Stoicism",
+	workshop = true,
     Color        = Color(180, 150, 255)
 }
 
@@ -1956,6 +1970,7 @@ PASSIVE_ITEM_FLAGS["Convert Fury to Stoicism"] = {
 PASSIVE_ITEM_FLAGS["Convert Fury to Resolve"] = {
     FunctionName = "ConvertFuryToResolve",
     Description  = "Converts 100 Fury into +50 Resolve",
+	workshop = true,
     Color        = Color(255, 170, 80)
 }
 
