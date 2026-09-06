@@ -92,7 +92,10 @@ mapMessages = {
 -- --------------------------------------------------
 
 intro_image_urls = {
-    "https://wallpapercave.com/wp/wp2469578.jpg",
+    "https://www.imperiumgaming.net/starwars/1.png",
+	"https://www.imperiumgaming.net/starwars/2.png",
+	"https://www.imperiumgaming.net/starwars/3.png",
+	"https://www.imperiumgaming.net/starwars/4.png"
 }
 
 intro_songs = {
