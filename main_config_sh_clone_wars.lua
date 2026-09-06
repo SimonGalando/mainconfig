@@ -272,15 +272,28 @@ commands = {
     ["/charroll"] = function(ply) charisma_roll_command(ply) end,
     ["!cheatmagic"] = function(ply) GainAttunementCheat(ply) end,
     ["/cheatmagic"] = function(ply) GainAttunementCheat(ply) end,
-    ["!claim"] = function(ply) RedeemQMPackage(ply) end,
-    ["/claim"] = function(ply) RedeemQMPackage(ply) end,
+    ["!claim"] = function(ply) MurlockReferralRedeemCommand(ply, args)  end,
+    ["/claim"] = function(ply) MurlockReferralRedeemCommand(ply, args)  end,
     ["!cleanup"] = function(ply) PlayerWantsToCleanUpAllForts(ply) end,
     ["/cleanup"] = function(ply) PlayerWantsToCleanUpAllForts(ply) end,
     ["!content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3764689804") end,
     ["/content"] = function(ply) OpenURL(ply,"https://steamcommunity.com/sharedfiles/filedetails/?id=3764689804") end,
     ["!createdivision"] = function(ply) OpenDivisionCreationMenuForPlayer(ply) end,
     ["/createdivision"] = function(ply) OpenDivisionCreationMenuForPlayer(ply) end,
-
+	["!daily"] = function(ply, args) MurlockDailyRewardsCommand(ply, args) end,
+	["/daily"] = function(ply, args) MurlockDailyRewardsCommand(ply, args) end,
+	
+	["!link"] = function(ply, args) MurlockReferralLinkCommand(ply, args) end,
+	["/link"] = function(ply, args) MurlockReferralLinkCommand(ply, args) end,
+	
+	["!redeem"] = function(ply, args) MurlockReferralRedeemCommand(ply, args) end,
+	["/redeem"] = function(ply, args) MurlockReferralRedeemCommand(ply, args) end,
+	
+	["!referrals"] = function(ply, args) MurlockReferralRewardsCommand(ply, args) end,
+	["/referrals"] = function(ply, args) MurlockReferralRewardsCommand(ply, args) end,
+	
+	["!rewards"] = function(ply, args) MurlockReferralRewardsCommand(ply, args) end,
+	["/rewards"] = function(ply, args) MurlockReferralRewardsCommand(ply, args) end,
     -- D commands
     ["!demote"] = function(ply, args) return demote_player(ply, args) end,
     ["/demote"] = function(ply, args) return demote_player(ply, args) end,
