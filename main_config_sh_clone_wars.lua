@@ -134,7 +134,9 @@ proximityDistance = 750
 function GetHealthByTotalPlayers()
     local TotalPlayers = #player.GetHumans()
     local health = 500
-
+	if true then
+		return 500
+	end
     if TotalPlayers < 5 then
         health = 500
     elseif TotalPlayers < 10 then
