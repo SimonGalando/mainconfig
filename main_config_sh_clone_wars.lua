@@ -1338,7 +1338,7 @@ ROLES = ROLES or {
 		Type = "",
         DefaultItems = {"item_747013","item_926118"},
         Ranks = {
-            {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
+            {ID = 1, Name = "Cadet", Rank_Prefix = "CDT", ModelsAllowed = {"models/aussiwozzi/cgi/base/104th_trooper.mdl"}, WeaponsAllowed = {}, CanPromote = false},
         },
         Classes = {
             {
