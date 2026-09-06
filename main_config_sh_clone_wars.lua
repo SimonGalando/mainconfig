@@ -1546,6 +1546,7 @@ PASSIVE_ITEM_FLAGS["Extra 100 Health"] = {
 PASSIVE_ITEM_FLAGS["Extra 200 Health"] = {
     FunctionName = "200health",
     Description = "Increases max health by 100.",
+	workshop = true,
     Color = Color(0, 255, 0)
 }
 
@@ -1575,6 +1576,7 @@ PASSIVE_ITEM_FLAGS["Add 50 Speed"] = {
 PASSIVE_ITEM_FLAGS["Add 100 Speed"] = {
     FunctionName = "add100speed",
     Description = "Increase Run Speed by 100",
+	workshop = true,
     Color = Color(0, 255, 0)
 }
 
@@ -1598,18 +1600,21 @@ PASSIVE_ITEM_FLAGS["Remove 50 Speed"] = {
 PASSIVE_ITEM_FLAGS["Health Regen"] = {
     FunctionName = "HealthRegen",
     Description  = "Grants passive health regeneration over time.",
+	workshop = true,
     Color        = Color(0, 200, 0)
 }
 
 PASSIVE_ITEM_FLAGS["Shield Regen"] = {
     FunctionName = "ShieldRegen",
     Description  = "Automatically repairs your Armor over time.",
+	workshop = true,
     Color        = Color(0, 161, 255)
 }
 
 PASSIVE_ITEM_FLAGS["Ammo Regen"] = {
     FunctionName = "AmmoRegen",
     Description  = "Grants passive ammo regeneration for your active weapon.",
+	workshop = true,
     Color        = Color(200, 200, 50)
 }
 
@@ -1635,6 +1640,7 @@ PASSIVE_ITEM_FLAGS["Damage Reduction 10"] = {
 PASSIVE_ITEM_FLAGS["Damage Reduction 25"] = {
     FunctionName = "DamageReduction25",
     Description  = "Decreases incoming damage by 10%.",
+	workshop = true,
     Color        = Color(0, 200, 255)
 }
 
@@ -1643,6 +1649,7 @@ PASSIVE_ITEM_FLAGS["Damage Reduction 25"] = {
 PASSIVE_ITEM_FLAGS["Last Stand"] = {
     FunctionName = "LastStand",
     Description  = "When below 35% health, you take 50% less damage.",
+	workshop = true,
     Color        = Color(255, 200, 0)
 }
 
@@ -1657,6 +1664,7 @@ PASSIVE_ITEM_FLAGS["Thorns 5"] = {
 PASSIVE_ITEM_FLAGS["Thorns 10"] = {
     FunctionName = "Thorns10",
     Description  = "Reflects 10% of incoming damage back to the attacker.",
+	workshop = true,
     Color        = Color(255, 120, 0)
 }
 
@@ -1674,6 +1682,7 @@ PASSIVE_ITEM_FLAGS["Damage Boost 10"] = {
 PASSIVE_ITEM_FLAGS["Damage Boost 25"] = {
     FunctionName = "DamageBoost25",
     Description  = "Increases your damage output by 10%.",
+	workshop = true,
     Color        = Color(0, 255, 0)
 }
 
@@ -1709,7 +1718,8 @@ PASSIVE_ITEM_FLAGS["Damage Taken Increase 25"] = {
 
 PASSIVE_ITEM_FLAGS["Corrosive Damage"] = {
     FunctionName = "CorrosiveDamage",
-    Description  = "Your attacks inflict Poison Damage, doing % damage over time.",
+    Description  = "Your attacks inflict Corrosive Damage, doing % damage over time.",
+	workshop = true,
     Color        = Color(0, 200, 100)
 }
 
@@ -1733,6 +1743,7 @@ PASSIVE_ITEM_FLAGS["Critical Strikes 10"] = {
 PASSIVE_ITEM_FLAGS["Critical Strikes 25"] = {
     FunctionName = "CritStrike25",
     Description  = "5% chance for your attacks to deal 100% more damage.",
+	workshop = true,
     Color        = Color(0, 255, 255)
 }
 
@@ -1770,6 +1781,7 @@ PASSIVE_ITEM_FLAGS["Vampirism 5"] = {
 PASSIVE_ITEM_FLAGS["Vampirism 10"] = {
     FunctionName = "Vampirism10",
     Description  = "Gain 10 Health Per Hit. (1 second cooldown)",
+	workshop = true,
     Color        = Color(255, 0, 255)
 }
 
@@ -1778,6 +1790,7 @@ PASSIVE_ITEM_FLAGS["Vampirism 10"] = {
 PASSIVE_ITEM_FLAGS["Armor Vampirism 10"] = {
     FunctionName = "ArmorVampirism10",
     Description  = "Steals 0.5% of dealt damage as armor.",
+	workshop = true,
     Color        = Color(0, 180, 200)
 }
 
@@ -1786,6 +1799,7 @@ PASSIVE_ITEM_FLAGS["Armor Vampirism 10"] = {
 PASSIVE_ITEM_FLAGS["Bullet Vampirism 10"] = {
     FunctionName = "BulletVampirism10",
     Description  = "Regenerates 1 bullet into your reserves every time you hit with a bullet.",
+	workshop = true,
     Color        = Color(200, 100, 0)
 }
 
