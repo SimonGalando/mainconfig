@@ -588,7 +588,6 @@ OFFICER_501ST = {
     "models/aussiwozzi/cgi/base/501st_torrent_officer.mdl",
     "models/aussiwozzi/cgi/base/501st_vaughn.mdl",
 	"models/aussiwozzi/cgi/base/501st_rex.mdl",
-
     "models/jajoff/sps/republic/tc13j/army_01.mdl",
     "models/jajoff/sps/republic/tc13j/army_02.mdl",
     "models/jajoff/sps/republic/tc13j/army_03.mdl",
@@ -605,10 +604,12 @@ RCT_212TH = {
 MODELS_212TH = {
     "models/aussiwozzi/cgi/base/212th_trooper.mdl",
     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
 }
 NCO_212TH = {
     "models/aussiwozzi/cgi/base/212th_trooper.mdl",
     "models/aussiwozzi/cgi/base/2ndac_trooper.mdl",
+	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
 }
 OFFICER_212TH = {
     "models/aussiwozzi/cgi/base/212th_officer.mdl",
@@ -617,7 +618,7 @@ OFFICER_212TH = {
     "models/aussiwozzi/cgi/base/212th_medic_officer.mdl",
     "models/aussiwozzi/cgi/base/212th_2ndacmedic.mdl",
     "models/aussiwozzi/cgi/base/212th_boil.mdl",
-
+	"models/aussiwozzi/cgi/base/212th_pilot.mdl",
     "models/jajoff/sps/republic/tc13j/army_01.mdl",
     "models/jajoff/sps/republic/tc13j/army_02.mdl",
     "models/jajoff/sps/republic/tc13j/army_03.mdl",
@@ -631,6 +632,10 @@ OFFICER_212TH = {
 NAVY_MODELS = {
     "models/jajoff/sps/republic/tc13j/navy_03.mdl",
     "models/jajoff/sps/republic/tc13j/navy03_female.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_pilot.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_broadside.mdl",
+	"models/jajoff/sps/republic/tc13j/rsb01.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb01_female.mdl",
 }
 
 NAVY_MP_MODELS = {
@@ -638,11 +643,7 @@ NAVY_MP_MODELS = {
     "models/jajoff/sps/republic/tc13j/rsb02_female.mdl",
     "models/jajoff/sps/republic/tc13j/rsb03.mdl",
     "models/jajoff/sps/republic/tc13j/rsb03_female.mdl",
-}
-
-NAVY_SLICERS_MODELS = {
-    "models/jajoff/sps/republic/tc13j/rsb01.mdl",
-    "models/jajoff/sps/republic/tc13j/rsb01_female.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_pilot.mdl",
 }
 
 NAVY_OFFICER = {
@@ -655,6 +656,9 @@ NAVY_OFFICER = {
 	"models/jajoff/sps/republic/tc13j/rsb_director.mdl",
 	"models/jajoff/sps/republic/tc13j/rsb03_female.mdl",
 	"models/jajoff/sps/republic/tc13j/rsb03.mdl",
+	"models/jajoff/sps/republic/tc13j/rsb01.mdl",
+    "models/jajoff/sps/republic/tc13j/rsb01_female.mdl",
+	"models/aussiwozzi/cgishadowsquad/broadside/shadowsqd_matchstick.mdl",
 }
 
 -- 104th Models
@@ -756,6 +760,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/501st_arc.mdl",
+					"models/aussiwozzi/cgi/base/501st_barc.mdl",
                 },
                 Weapons = {},
 				HasReconGlasses = true,
@@ -768,7 +773,9 @@ DivisionTypes = {
                 Name = "Medic",
 				Medic = true,
                 Core = true,
-                Models = {"models/aussiwozzi/cgi/base/501st_medic.mdl","models/jajoff/sps/republic/tc13j/army_medic.mdl"},
+                Models = 
+					"models/aussiwozzi/cgi/base/501st_medic.mdl",
+					"models/jajoff/sps/republic/tc13j/army_medic.mdl",
                 Weapons = {"ent_spawner"},
                 SpawnWeapons = {"weapon_fists"},
                 Prefix = "MED",
@@ -869,6 +876,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/212th_arc.mdl",
+					"models/aussiwozzi/cgi/base/212th_barc.mdl",
                 },
                 Weapons = {},
 				HasReconGlasses = true,
@@ -988,6 +996,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/104th_arf.mdl",
+					"models/aussiwozzi/cgi/base/104th_barc.mdl",
                 },
                 Weapons = {},
 				HasReconGlasses = true,
@@ -1018,6 +1027,7 @@ DivisionTypes = {
                 Core = true,
                 Models = {
                     "models/aussiwozzi/cgi/base/104th_arc.mdl",
+					"models/aussiwozzi/cgi/base/104th_barc.mdl",
                 },
                 Weapons = {},
 				HasReconGlasses = true,
@@ -1226,7 +1236,7 @@ DivisionTypes = {
 	            vehicles = {},
 	        },
 	        {
-	            Name = "Republic Captured Droid",
+	            Name = "Republic Droid",
 	            Core = true,
 	            Models = {
 	                "models/bx_training/pm_droid_cis_bx_training.mdl",
@@ -1235,7 +1245,7 @@ DivisionTypes = {
 	            },
 	            Weapons = {},
                 SpawnWeapons = {"weapon_fists"},
-	            Prefix = "RCD",
+	            Prefix = "Droid",
 	            EntitySpawner = {},
 	            vehicles = {},
 	        },
@@ -1312,7 +1322,7 @@ ROLES = ROLES or {
                 ID = 1,
                 Name = "Staff",
                 Rank_Prefix = "",
-                ModelsAllowed = {"models/player/combine_super_soldier.mdl", "models/player/combine_soldier_prisonguard.mdl", "models/player/breen.mdl", "models/player/monk.mdl", "models/player/odessa.mdl", "models/player/skeleton.mdl"},
+                ModelsAllowed = {"models/player/combine_super_soldier.mdl", "models/player/combine_soldier_prisonguard.mdl", "models/player/breen.mdl", "models/player/monk.mdl", "models/player/odessa.mdl", "models/player/skeleton.mdl","models/mannequin/pm_civ_mannequin_costume_male.mdl","models/mannequin/pm_civ_mannequin_costume_female.mdl","models/engineer/pm_civ_engineer_human_male.mdl"},
                 WeaponsAllowed = {},
                 CanPromote = true
             },
@@ -1504,6 +1514,10 @@ CERTIFICATIONS = {
         Weapons = {},
     },
 
+    ["Speeders & AT-RT"] = { --Able to spawn in a huge range of heavy to light tanks.
+        Entitys = {},
+    },
+	
 	--Class Certs
 
 	["Jetpack"] = { --Able to use Jetpacks. You arent given one, just able to use jetpacks. Worse if your not 212th
@@ -2136,16 +2150,26 @@ PASSIVE_ITEM_FLAGS["auxiliary_only"] = {
     Color = Color(124, 124, 124)
 }
 
--- --------------------------------------------------------
--- ---------- PASSIVE ITEM FLAGS: CLASS WHITLISTS ---------
--- --------------------------------------------------------
 
-PASSIVE_ITEM_FLAGS["military_police_only"] = {
+PASSIVE_ITEM_FLAGS["any_vehicle_certs_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
-	RoleType = "MP",
-    Description = "You must be a Military Police member to use this item.",
-    Color = Color(127, 0, 95)
+	RoleType = {"Speeders & AT-RT","Pilot","Tanker","Logistics"},
+    Description = "You must certified to any vehicle cert to use this item.",
+    Color = Color(124, 124, 124)
+}
+
+-- --------------------------------------------------------------
+-- ---------- PASSIVE ITEM FLAGS: MULTI CLASS WHITLISTS ---------
+-- --------------------------------------------------------------
+
+
+PASSIVE_ITEM_FLAGS["any_recon_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = {"Advanced Recon Force","Advanced Recon Commando"},
+    Description = "You must certified to any vehicle cert to use this item.",
+    Color = Color(124, 124, 124)
 }
 
 PASSIVE_ITEM_FLAGS["medic_and_doctor_only"] = {
@@ -2156,6 +2180,59 @@ PASSIVE_ITEM_FLAGS["medic_and_doctor_only"] = {
     Color = Color(127, 0, 95)
 }
 
+PASSIVE_ITEM_FLAGS["engineers_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = {"Engineer","Navy Engineer"},
+    Description = "You must be either a medic or a doctor to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["troopers_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = {"Trooper","Gunner"},
+    Description = "You must be either a medic or a doctor to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["merc_and_special_forces_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = {"Advanced Recon Force","Advanced Recon Commando", "Merc"},
+    Description = "You must be either a medic or a doctor to use this item.",
+    Color = Color(127, 0, 95)
+}
+-- IE, Westars and other shared weapons
+
+PASSIVE_ITEM_FLAGS["droids_and_astromechs_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = {"Republic Droid","Astromech"},
+    Description = "You must be either a medic or a doctor to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+-- --------------------------------------------------------
+-- ---------- PASSIVE ITEM FLAGS: CLASS WHITLISTS ---------
+-- --------------------------------------------------------
+
+PASSIVE_ITEM_FLAGS["jetpack_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	Cert = {"Jetpack"},
+    Description = "You must be an Engineer to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["military_police_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "MP",
+    Description = "You must be a Military Police member to use this item.",
+    Color = Color(127, 0, 95)
+}
+
 PASSIVE_ITEM_FLAGS["engineer_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
@@ -2163,6 +2240,15 @@ PASSIVE_ITEM_FLAGS["engineer_only"] = {
     Description = "You must be an Engineer to use this item.",
     Color = Color(127, 0, 95)
 }
+
+PASSIVE_ITEM_FLAGS["Droid_only"] = {
+    FunctionName = "none",
+	RoleWhitelist = true,
+	RoleType = "Republic Droid",
+    Description = "You must be an astromech unit to use this item.",
+    Color = Color(127, 0, 95)
+}
+
 
 PASSIVE_ITEM_FLAGS["astromech_only"] = {
     FunctionName = "none",
