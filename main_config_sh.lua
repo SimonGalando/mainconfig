@@ -2916,6 +2916,30 @@ PASSIVE_ITEM_FLAGS["Greed"] = {
     Color        = Color(50, 200, 50)
 }
 
+PASSIVE_ITEM_FLAGS["ConvertCapacitanceToArmor"] = {
+    FunctionName = "ConvertCapacitanceToArmor",
+    Description  = "Converts Capacitance into armor.",
+    Color        = Color(100, 220, 255)
+}
+
+PASSIVE_ITEM_FLAGS["ConvertArmorToCapacitance"] = {
+    FunctionName = "ConvertArmorToCapacitance",
+    Description  = "Converts armor into Capacitance.",
+    Color        = Color(100, 220, 255)
+}
+
+PASSIVE_ITEM_FLAGS["ConvertCapacitanceToDamage"] = {
+    FunctionName = "ConvertCapacitanceToDamage",
+    Description  = "Converts Capacitance into damage when attacking.",
+    Color        = Color(100, 220, 255)
+}
+
+PASSIVE_ITEM_FLAGS["CapacitanceOnDamage"] = {
+    FunctionName = "CapacitanceOnDamage",
+    Description  = "Gain Capacitance when dealing damage.",
+    Color        = Color(100, 220, 255)
+}
+
 -- Jetpack
 PASSIVE_ITEM_FLAGS["Jetpack"] = {
     FunctionName = "Jetpack",
