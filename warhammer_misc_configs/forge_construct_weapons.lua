@@ -147,3 +147,5 @@ CRAFTABLE_ITEMS["item_410972"] = 45000 -- Powerfist + Bolt Pistol tfa
 CRAFTABLE_ITEMS["item_492073"] = 55000 -- Powerfist + Plasma Pistol tfa
 
 CRAFTABLE_ITEMS["item_543850"] = 250000 -- Kastelan Assault Bolters
+CRAFTABLE_ITEMS["item_413570"] = 250000 -- Kastelan Heavy Phosphor
+CRAFTABLE_ITEMS["item_561368"] = 250000 -- Kastelan Arc Cannon
