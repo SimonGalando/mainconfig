@@ -145,3 +145,5 @@ CRAFTABLE_ITEMS["item_286922"] = 20000 -- Armageddon Autogun tfa
 CRAFTABLE_ITEMS["item_408695"] = 25000 -- Powerfist
 CRAFTABLE_ITEMS["item_410972"] = 45000 -- Powerfist + Bolt Pistol tfa
 CRAFTABLE_ITEMS["item_492073"] = 55000 -- Powerfist + Plasma Pistol tfa
+
+CRAFTABLE_ITEMS["item_543850"] = 250000 -- Kastelan Assault Bolters
