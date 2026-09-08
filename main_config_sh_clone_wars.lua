@@ -2168,7 +2168,7 @@ PASSIVE_ITEM_FLAGS["any_recon_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
 	RoleType = {"Advanced Recon Force","Advanced Recon Commando"},
-    Description = "You must certified to any vehicle cert to use this item.",
+    Description = "You must a member of Advanced recon to use this item.",
     Color = Color(124, 124, 124)
 }
 
@@ -2184,7 +2184,7 @@ PASSIVE_ITEM_FLAGS["engineers_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
 	Cert = {"Engineer","Navy Engineer"},
-    Description = "You must be either a medic or a doctor to use this item.",
+    Description = "You must be either navy or army engineer to use this item.",
     Color = Color(127, 0, 95)
 }
 
@@ -2192,15 +2192,31 @@ PASSIVE_ITEM_FLAGS["troopers_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
 	Cert = {"Trooper","Gunner"},
-    Description = "You must be either a medic or a doctor to use this item.",
+    Description = "You must be either a trooper or a gunner to use this item.",
     Color = Color(127, 0, 95)
 }
 
-PASSIVE_ITEM_FLAGS["merc_and_special_forces_only"] = {
+PASSIVE_ITEM_FLAGS["merc_and_droids_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
 	Cert = {"Advanced Recon Force","Advanced Recon Commando", "Merc"},
-    Description = "You must be either a medic or a doctor to use this item.",
+    Description = "You must be either a mercenary or a droid to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["merc_and_droids_and_special_forces_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = {"Republic Droid","Advanced Recon Commando","Advanced Recon Force","Merc"},
+    Description = "You must be either a mercenary, a droid or a ARC/ARF to use this item.",
+    Color = Color(127, 0, 95)
+}
+
+PASSIVE_ITEM_FLAGS["merc_and_republic_droid_only"] = {
+    FunctionName = "none",
+	CertWhitelist = true,
+	Cert = {"Republic Droid", "Merc"},
+    Description = "You must be either a merc  or a republic droid to use this item.",
     Color = Color(127, 0, 95)
 }
 -- IE, Westars and other shared weapons
@@ -2209,7 +2225,7 @@ PASSIVE_ITEM_FLAGS["droids_and_astromechs_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
 	Cert = {"Republic Droid","Astromech"},
-    Description = "You must be either a medic or a doctor to use this item.",
+    Description = "You must be either a droid or a astromech to use this item.",
     Color = Color(127, 0, 95)
 }
 
@@ -2221,7 +2237,7 @@ PASSIVE_ITEM_FLAGS["jetpack_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
 	Cert = {"Jetpack"},
-    Description = "You must be an Engineer to use this item.",
+    Description = "You must be certified to use jetpacks to use this item.",
     Color = Color(127, 0, 95)
 }
 
@@ -2245,7 +2261,7 @@ PASSIVE_ITEM_FLAGS["Droid_only"] = {
     FunctionName = "none",
 	RoleWhitelist = true,
 	RoleType = "Republic Droid",
-    Description = "You must be an astromech unit to use this item.",
+    Description = "You must be a droid unit to use this item.",
     Color = Color(127, 0, 95)
 }
 
@@ -2286,7 +2302,7 @@ PASSIVE_ITEM_FLAGS["reconnaissance_only"] = {
     FunctionName = "none",
 	CertWhitelist = true,
 	Cert = "Advanced Recon Force",
-    Description = "You must be an ARF Specialist Trooper to use this item.",
+    Description = "You must be a Recon Specialist Trooper to use this item.",
     Color = Color(127, 0, 95)
 }
 
