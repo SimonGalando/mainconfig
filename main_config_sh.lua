@@ -1078,9 +1078,32 @@ DivisionTypes = {
                 Models = {"models/wk/servitor/wk_servit.mdl"},
                 ForceModels = true,
                 Weapons = {"cat_legacy_gravgun"},
+                MaxHealth = 100,
+                SpawnWeapons = {"weapon_fists"},
+                Prefix = "Servitor"
+            },
+			{
+                Name = "Combat Servitor",
+                Default = false,
+                Core = true,
+                Models = {"models/wk/servitor/wk_servit.mdl"},
+                ForceModels = true,
+                Weapons = {"cat_legacy_gravgun"},
                 MaxHealth = 150,
                 SpawnWeapons = {"cat_legacy_powerfistcrusade"},
-                Prefix = "Servitor"
+                Prefix = "Combat Servitor"
+            },
+			{
+                Name = "Kastelan",
+                Default = false,
+                Core = true,
+                Models = {"models/wk/servitor/wk_servit.mdl"},
+                ForceModels = true,
+                Weapons = {"cat_legacy_gravgun"},
+                MaxHealth = 400,
+				PowerShield = true,
+                SpawnWeapons = {"cat_legacy_powerfist"},
+                Prefix = "Kastelan"
             },
 			{
                 Name = "Skitarii",
