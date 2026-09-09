@@ -153,3 +153,4 @@ CRAFTABLE_ITEMS["item_948321"] = 25000 -- Arc Lance & Shield
 CRAFTABLE_ITEMS["item_232826"] = 25000 -- Arc Maul & Shield
 CRAFTABLE_ITEMS["item_839748"] = 17500 -- Transonic Blade
 CRAFTABLE_ITEMS["item_405405"] = 17500 -- Arc Maul
+CRAFTABLE_ITEMS["item_619833"] = 12500 -- Taser Goad
